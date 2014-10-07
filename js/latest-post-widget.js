@@ -7,5 +7,5 @@ jQuery(function($) {
         });
     }
     updateLatestPost();
-    setInterval(updateLatestPost, 1000);
+    setInterval(updateLatestPost, 15 * 1000);
 });
